@@ -1,0 +1,33 @@
+.grid-container {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 2px;
+  margin-right: 40px;
+}
+.navbar{
+  display: flex;
+  height: 60px;
+}
+.navbar-brand{
+  margin-left: 20px;
+  margin-right: 50px;
+}
+.enlarge-button {
+  /* Set initial button styles */
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease; /* Add transition to the transform property */
+}
+.enlarge-button:hover {
+  /* Change styles on hover */
+  transform: scale(1.1); /* Enlarge the button to 110% of its original size */
+}
